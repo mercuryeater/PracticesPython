@@ -2,6 +2,7 @@ import operations as o
 from paquete import sumador, restador
 import paquete.sumador.suma as suma
 import paquete.restador.resta as resta
+import pprint
 
 
 def main():
@@ -19,3 +20,12 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+def pruebaLocals(initial):
+    value = 3
+    state = False
+    pprint.pprint(f'Esto es init: {initial}, esto es value: {value}, el estado es {state}')
+    pprint.pprint(locals())
+
+pruebaLocals(1)
