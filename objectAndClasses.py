@@ -92,7 +92,7 @@ max.isOn()
 
 class Animal(ABC):
     # Al volver un metodo abstracto
-    # el metodo va a tener que serimplementado en
+    # el metodo va a tener que ser implementado en
     # la clase que hereda la clase abstracta
     @abstractmethod
     def sound(self):
